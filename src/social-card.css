@@ -1,0 +1,70 @@
+.card-container {
+    display: flex;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: auto;
+    width: 30%;
+}
+
+.content-container {
+    flex-grow: 3;
+}
+
+.profile-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
+.grey-text {
+    color: grey;
+}
+
+p {
+    margin: 0px;
+    font-size: 14px;
+}
+
+.ad-container {
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin: 8px 0px;
+}
+
+.add-image {
+    width: 330px;
+}
+
+.add-content {
+    padding: 5px;
+}
+
+.icon-container {
+    display: flex;
+}
+
+.icon-wrapper {
+    flex-grow: 1;
+}
+
+.icon-container img {
+    width: 20px;
+    margin-right: 7px;
+}
+
+.icon-wrapper {
+    display: inline-block
+}
+
+.green-text {
+    color: green;
+}
+
+.red-text {
+    color: red;
+}
